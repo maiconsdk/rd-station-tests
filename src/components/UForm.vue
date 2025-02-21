@@ -9,7 +9,7 @@ const handleSubmit = ({currentTarget}: Event) => {
 </script>
 <template>
   <div class="container">
-    <form class="form" @submit.prevent="handleSubmit">
+    <form class="form" @submit="handleSubmit">
       <label class="form__label" for="fullname">
         <input class="form__input" type="text" name="fullname" id="fullname" placeholder="Digite o seu nome completo" required>
       </label>
