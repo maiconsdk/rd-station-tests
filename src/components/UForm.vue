@@ -4,7 +4,7 @@ const handleSubmit = ({currentTarget}: Event) => {
   const form = currentTarget as HTMLFormElement
   const formData = new FormData(form)
 
-  console.log(formData)
+  console.log(form)
 }
 </script>
 <template>
