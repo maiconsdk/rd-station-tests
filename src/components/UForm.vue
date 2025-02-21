@@ -1,6 +1,6 @@
 <script lang="ts" setup>
 
-const handleSubmit = ({currentTarget}: event) => {
+const handleSubmit = ({currentTarget}: Event) => {
   const form = currentTarget as HTMLFormElement
   const formData = new FormData(form)
 
