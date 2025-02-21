@@ -1,0 +1,17 @@
+<script setup lang="ts">
+import UForm from '../components/UForm.vue'
+</script>
+
+<template>
+  <main>
+    <h1>About</h1>
+    <UForm />
+  </main>
+</template>
+<style lang="css" scoped>
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
